@@ -1,0 +1,71 @@
+/* @media (max-width: 999px) {
+  .desk-text {
+    display: none;
+  }
+  .mobile-text {
+    display: block;
+  }
+
+  .mob-text-three {
+    width: 100vw;
+  }
+  .mob-text-two {
+    width: 100%;
+  }
+  .mob-text-one {
+    width: 100%;
+  }
+}
+.mobile-text {
+  display: none;
+} */
+
+#workplay {
+  display: none;
+}
+
+@media (max-width: 999px) {
+  #workplay {
+    display: block;
+    width: 45%;
+  }
+  #working {
+    display: none !important;
+  }
+  .cotacao-two:first-child {
+    background: url("../../../Assets/images/mobile/give-me-that-remote-controller.jpg")
+      center;
+    background-size: cover;
+  }
+
+  .cotacao-two:first-child p {
+    color: white;
+  }
+
+  .desk-text img {
+    width: 100%;
+  }
+  .cotacao {
+    background: url("../../../Assets/images/mobile/living-room-interior.jpg")
+      center;
+    background-size: cover;
+  }
+  .cotacao-two:last-child {
+    background: url("../../../Assets/images/mobile/man-at-a-recording-studio-music-production.jpg")
+      center;
+    background-size: cover;
+  }
+  .cotacao-two:last-child p {
+    color: white;
+  }
+  .cotacao p {
+    color: white;
+  }
+}
+
+
+@media(max-width:320px){
+  #workplay{
+    w
+  }
+}

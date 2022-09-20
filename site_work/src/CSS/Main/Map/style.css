@@ -1,0 +1,23 @@
+.map {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.map h2 {
+  margin: 50px;
+  font-size: 50px;
+  color: #4480d5;
+  font-weight: bold;
+}
+@media (max-width: 400px) {
+  .map h2 {
+    font-size: 30px;
+  }
+}
+.map iframe {
+  margin-top: 25px;
+  width: 100%;
+}

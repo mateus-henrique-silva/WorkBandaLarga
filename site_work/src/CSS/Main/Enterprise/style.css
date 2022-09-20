@@ -1,0 +1,94 @@
+.enterprise-plan {
+  width: 100%;
+  background: url("../../../Assets/images/empresa.png") center no-repeat;
+  background-size: cover;
+  height: 90vh;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.enterprise {
+  margin: 15%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 280px;
+  width: 300px;
+  background: rgb(0, 192, 250);
+  background: linear-gradient(
+    99deg,
+    rgba(0, 192, 250, 0.8) 35%,
+    rgba(1, 94, 234, 0.8) 100%
+  );
+}
+
+.enterprise div h2 {
+  color: white;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 28px;
+}
+.enterprise div ul {
+  margin: 10px;
+}
+.enterprise div ul li {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 15px;
+}
+.enterprise div ul li:before {
+  content: "✓";
+  margin-right: 5px;
+  color: white;
+}
+.enterprise div button {
+  margin-top: -10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  color: #02a7f6;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 20px 10px;
+}
+@media (max-width: 400px) {
+  .enterprise div ul li {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 10px;
+  }
+  .enterprise {
+    margin: 0 !important;
+  }
+  .enterprise-plan {
+    justify-content: center !important;
+  }
+}
+.enterprise div button svg {
+  width: 15px;
+  margin-right: 8px;
+}
+/* .solicite {
+  background-color: white;
+  justify-content: center;
+  margin-top: -65px;
+  margin-left: 8%;
+  padding: 10px 20px 10px;
+  position: absolute;
+  display: flex;
+} */
+.solicite svg {
+  width: 20px;
+  margin-right: 10px;
+}
+/* .combo {
+  margin: 15%;
+} */

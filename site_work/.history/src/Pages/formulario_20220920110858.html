@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/Main/MainFaq/style.css" />
+    <link rel="stylesheet" href="../CSS/Global.css" />
+    <link rel="stylesheet" href="../CSS/Header/style.css" />
+    <link rel="stylesheet" href="../CSS/Footer/Style.css" />
+    <link rel="stylesheet" href="../CSS/Main/Forms/styles.css">
+
+    <style media="screen"></style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo"
+          ><img src="../Assets/logo-branca.png" width="100" alt=""
+        /></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="javascript:history.back()">Inicio</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#tv">TV</a></li>
+          <li><a href="#container"> Contato</a></li>
+          <li>
+            <select
+              style="margin: 5px; margin-left: 0"
+              name="cars"
+              id="city"
+              onChange="update()"
+            >
+              <option value="1">Campos dos Goytacazes</option>
+              <option value="2">Conceição de Macabu</option>
+              <option value="3">Quissamã</option>
+              <option value="4">São João da Barra</option>
+            </select>
+          </li>
+        </ul>
+        <ul style="display: flex">
+          <select
+            style="margin: 5px; margin-left: 0"
+            name="cars"
+            id="cityTwo"
+            onChange="update()"
+          >
+            <option value="1">Campos dos Goytacazes</option>
+            <option value="2">Conceição de Macabu</option>
+            <option value="3">Quissamã</option>
+            <option value="4">São João da Barra</option>
+          </select>
+ 
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form action="../PHP/" method="POST">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nome</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Seu nome..."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">E-mail</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="email"
+                id="lname"
+                name="email"
+                placeholder="E-mail..."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Cidade</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country">
+                <option value="campos">Campos dos Goytacazes</option>
+                <option value="conce">Conceição de Macabu</option>
+                <option value="quiss">Quissamã</option>
+                <option value="sao">São João da Barra</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Menssagem</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="subject"
+                name="menssagem"
+                placeholder="Escreva sua menssagem..."
+                style="height: 200px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <section>
+        <div class="img-footer">
+          <img src="../Assets/images/logo-preta.png" alt="" srcset="" />
+        </div>
+        <div class="link-footer">
+          <div class="text-one">
+            <h2>Relacionamento</h2>
+            <a href="#map">Endereço</a>
+            <a href="">Contato</a>
+            <a href="">Suporte</a>
+            <a href="">Áreas atendidas</a>
+          </div>
+          <div class="text-two">
+            <h2>Empresa</h2>
+            <a href="">Sobre nós</a>
+            <a href="">Tire suas duvidas</a>
+          </div>
+        </div>
+      </section>
+      <section style="height: 5vh; display: flex; align-items: center">
+        <div class="text-three">
+          <strong>@2022 Work Banda Larga -Todos os direitos reservados </strong>
+        </div>
+        <div class="text-four">
+          <p>@workbandalarga</p>
+          <div class="social">
+            <img src="../Assets/images/logo facebook.svg" alt="facebook" />
+            <img src="../Assets/images/logo instagram.svg" alt="instagram" />
+            <img src="../Assets/images/logo twitter.svg" alt="twitter" />
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="../Scripts/Menu/script.js"></script>
+    <script src="../Scripts/Select/scripts.js"></script>
+  </body>
+</html>

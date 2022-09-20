@@ -1,0 +1,130 @@
+.price-plan-one {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  background: url("../../../Assets/images/fundo\ preços.jpg") fixed center
+    no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 
+  opacity: 0.5; */
+}
+
+.price-plan-two {
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  background: url("../../../Assets/images/fundo\ precos.jpg") fixed center
+    no-repeat;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* 
+    opacity: 0.5; */
+}
+.price-plan-two h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 2px 2px rgba(17, 17, 17, 0.5);
+}
+
+.price-plan-two div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan {
+  background: rgb(0, 192, 250);
+  background: linear-gradient(
+    99deg,
+    rgba(0, 192, 250, 0.8) 35%,
+    rgba(1, 94, 234, 0.8) 100%
+  );
+  color: white;
+  border-radius: 10px;
+  height: 300px;
+  width: 200px;
+  margin: 40px;
+  transition: 0.3s;
+  display: block !important;
+}
+
+.price-plan-one {
+  display: none;
+}
+.price-plan-one .plan ul {
+  text-align: start !important;
+}
+@media (max-width: 999px) {
+  .price-plan-one {
+    display: block;
+  }
+  .price-plan-two {
+    display: none;
+  }
+}
+
+.ajust-two h2 span {
+  color: white !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #00c0fa;
+}
+.plan-tittle {
+  display: flex;
+  margin-bottom: 10px !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+}
+.plan-value {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+}
+.plan-value small {
+  margin-top: 3px;
+}
+
+.plan ul li {
+  margin: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+}
+.plan ul {
+  margin-top: 10px;
+}
+.plan ul li:before {
+  content: "✓";
+  margin-right: 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+.plan-tittle h2 {
+  font-size: 35px;
+}
+.plan-tittle h3 {
+  font-size: 25px;
+}
+.stick {
+  background-color: white;
+  height: 5px;
+  border-radius: 20px;
+  width: 120px;
+  margin-bottom: 0 !important;
+}
+
+.plan:hover {
+  height: 320px;
+  width: 220px;
+}
