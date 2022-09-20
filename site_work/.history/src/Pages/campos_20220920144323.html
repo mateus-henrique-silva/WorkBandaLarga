@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/Global.css" />
+    <link rel="stylesheet" href="../CSS/Header/style.css" />
+    <link rel="stylesheet" href="../CSS/Main/Carrossel/style.css" />
+    <link rel="stylesheet" href="../CSS/Main/Box/style.css">
+    <link rel="stylesheet" href="../CSS/Main/Plan/style.css">
+    <link rel="stylesheet" href="../CSS/Main/Text/style.css">
+    <link rel="stylesheet" href="../CSS/Main/Enterprise/style.css">
+    <link rel="stylesheet" href="../CSS/Main/Map/style.css">
+    <link rel="stylesheet" href="../CSS/Footer/Style.css">
+    <link rel="stylesheet" href="../CSS/WhatsButton/Style.css">
+    <link rel="stylesheet" href="../CSS/Main/textMobile/style.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>Campos dos Goytacazes</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo"
+          ><img src="../Assets/logo-branca.png" width="100" alt=""
+        /></a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#tv">TV</a></li>
+          <li><a href="./formulario.html"> Contato</a></li>
+          <li>   <select style="margin: 5px; margin-left: 0" name="cars" id="city" onChange="update()">
+            <option value="1">Campos dos Goytacazes</option>
+            <option value="2">Conceição de Macabu</option>
+            <option value="3">Quissamã</option>
+            <option value="4">São João da Barra</option>
+          </select></li>
+       
+        </ul>
+        <ul style="display: flex">
+          <select style="margin: 5px; margin-left: 0" name="cars" id="cityTwo" onChange="update()">
+            <option value="1">Campos dos Goytacazes</option>
+            <option value="2">Conceição de Macabu</option>
+            <option value="3">Quissamã</option>
+            <option value="4">São João da Barra</option>
+          </select>
+          <li style="list-style: none; font-size: 10px; margin: 5px">
+            <a
+              href="../Pages/formulario.html"
+              style="
+                font-size: 12px;
+
+                font-family: arial;
+                color: white;
+              "
+             
+              class="contact-header"
+              >Entre em contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- <section>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="../Assets/images/carrossel 1.png" alt="Foto 01" />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img
+                  src="./src/Assets/img/carrossel/mobile/drop-mobile.png"
+                  alt="Foto 03"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="../Assets/images/empresa.png" alt="Foto 01" />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img
+                  src="./src/Assets/img/carrossel/mobile/escada-mobile.png"
+                  alt="Foto 03"
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="project-img">
+                <img src="./src/Assets/img/teste6.png" alt="Foto 01" />
+              </div>
+              <div class="project-img" id="mobile-img">
+                <img src="./src/Assets/img/foto_03.png" alt="Foto 03" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section> -->
+      <section>
+        <div class="carrossel">
+         
+            <ul class="container" id="img">
+           <li><div class="imagem-cards-one">
+              <p>
+                Sua <br />
+                Melhor<br />
+                Escolha<br />
+                para <span>Compartilhar.</span>
+              </p>
+              <button>Escolha Seu Plano</button>
+            </div></li> 
+            <li> <div class="imagem-cards-two">
+              <p>
+                Sua <br />
+                Melhor<br />
+                Escolha<br />
+                para <span>Comemorar.</span>
+                
+              </p>
+              <button>Escolha Seu Plano</button>
+            </div></li>
+            <li> <div class="imagem-cards-three">
+              <p>
+                Sua <br />
+                Melhor<br />
+                Escolha<br />
+                para <span>Jogar.</span>
+              </p>
+              <button>Escolha Seu Plano</button>
+            </div></li>
+            <li> <div class="imagem-cards-four">
+              <p>
+                Sua <br />
+                Melhor<br />
+                Escolha<br />
+                para <span>Assistir.</span>
+              </p>
+              <button>Escolha Seu Plano</button>
+            </div></li>
+            <!-- <div class="imagem-cards-two"></div>
+            <div class="imagem-cards-two"></div>
+            <div class="imagem-cards-two"></div> -->
+          </div>
+        </ul>
+        
+      </section>
+      <section >
+        <div class="section-box">
+          <!-- card 1 -->
+
+          <ul>
+            <li class="box">
+              <div class="box-inter">
+                <h1 >Sem <br> fidelidade</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.81 29.64"><defs><style>.cls-1{fill:#1c3c83;}.cls-2{fill:#25b0ec;}</style></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><circle class="cls-1" cx="55.92" cy="7.31" r="5.37"/><circle class="cls-1" cx="55.92" cy="24.28" r="5.37"/><circle class="cls-1" cx="77.65" cy="7.29" r="5.37"/><circle class="cls-1" cx="77.65" cy="24.25" r="5.37"/><circle class="cls-1" cx="99.37" cy="7.27" r="5.37"/><circle class="cls-1" cx="99.37" cy="24.23" r="5.37"/><circle class="cls-1" cx="121.1" cy="7.25" r="5.37"/><circle class="cls-1" cx="121.1" cy="24.21" r="5.37"/><circle class="cls-1" cx="142.82" cy="7.22" r="5.37"/><circle class="cls-1" cx="142.82" cy="24.19" r="5.37"/><circle class="cls-1" cx="164.55" cy="7.2" r="5.37"/><circle class="cls-1" cx="164.55" cy="24.17" r="5.37"/><circle class="cls-1" cx="186.27" cy="7.18" r="5.37"/><circle class="cls-1" cx="186.27" cy="24.15" r="5.37"/><circle class="cls-1" cx="207.99" cy="7.16" r="5.37"/><circle class="cls-1" cx="207.99" cy="24.12" r="5.37"/><circle class="cls-1" cx="229.72" cy="7.14" r="5.37"/><circle class="cls-1" cx="229.72" cy="24.1" r="5.37"/><circle class="cls-1" cx="251.44" cy="7.12" r="5.37"/><circle class="cls-1" cx="251.44" cy="24.08" r="5.37"/><rect class="cls-2" x="12.37" y="-3.95" width="4" height="36.64" transform="translate(14.37 -5.95) rotate(45)"/><rect class="cls-2" x="28.92" y="-3.95" width="4" height="36.64" transform="translate(19.22 -17.66) rotate(45)"/></g></g></svg>
+                <p>Se você não gostar  <br>dos serviço  cancele sem taxas ou multas</p>
+              </div>
+
+              <div class="obj" id="planos">
+                <img
+                  src="../Assets/icons/unlock.svg"
+                  alt="arrowup"
+                  srcset=""
+                />
+              </div>
+            </li>
+            <!-- card 2 -->
+            <li class="box">
+              <div class="box-inter">
+                <h1>Provedor Certificado</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.81 29.64"><defs><style>.cls-1{fill:#1c3c83;}.cls-2{fill:#25b0ec;}</style></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><circle class="cls-1" cx="55.92" cy="7.31" r="5.37"/><circle class="cls-1" cx="55.92" cy="24.28" r="5.37"/><circle class="cls-1" cx="77.65" cy="7.29" r="5.37"/><circle class="cls-1" cx="77.65" cy="24.25" r="5.37"/><circle class="cls-1" cx="99.37" cy="7.27" r="5.37"/><circle class="cls-1" cx="99.37" cy="24.23" r="5.37"/><circle class="cls-1" cx="121.1" cy="7.25" r="5.37"/><circle class="cls-1" cx="121.1" cy="24.21" r="5.37"/><circle class="cls-1" cx="142.82" cy="7.22" r="5.37"/><circle class="cls-1" cx="142.82" cy="24.19" r="5.37"/><circle class="cls-1" cx="164.55" cy="7.2" r="5.37"/><circle class="cls-1" cx="164.55" cy="24.17" r="5.37"/><circle class="cls-1" cx="186.27" cy="7.18" r="5.37"/><circle class="cls-1" cx="186.27" cy="24.15" r="5.37"/><circle class="cls-1" cx="207.99" cy="7.16" r="5.37"/><circle class="cls-1" cx="207.99" cy="24.12" r="5.37"/><circle class="cls-1" cx="229.72" cy="7.14" r="5.37"/><circle class="cls-1" cx="229.72" cy="24.1" r="5.37"/><circle class="cls-1" cx="251.44" cy="7.12" r="5.37"/><circle class="cls-1" cx="251.44" cy="24.08" r="5.37"/><rect class="cls-2" x="12.37" y="-3.95" width="4" height="36.64" transform="translate(14.37 -5.95) rotate(45)"/><rect class="cls-2" x="28.92" y="-3.95" width="4" height="36.64" transform="translate(19.22 -17.66) rotate(45)"/></g></g></svg>
+                <p>Possuímos todos os documentos para operação, como outorgas, licenças, treinamentos e entre outros</p>
+              </div>
+
+              <div class="obj">
+                <img
+                src="../Assets/icons/award.svg"
+                  alt="arrowup"
+                  srcset=""
+                />
+              </div>
+            </li>
+            <!-- card 3 -->
+            <li class="box">
+              <div class="box-inter">
+                <!-- <img src="./src/Assets/img/icons/iconsBox/box.svg" alt="" /> -->
+                <h1>Tecnologia de Ponta</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256.81 29.64"><defs><style>.cls-1{fill:#1c3c83;}.cls-2{fill:#25b0ec;}</style></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><circle class="cls-1" cx="55.92" cy="7.31" r="5.37"/><circle class="cls-1" cx="55.92" cy="24.28" r="5.37"/><circle class="cls-1" cx="77.65" cy="7.29" r="5.37"/><circle class="cls-1" cx="77.65" cy="24.25" r="5.37"/><circle class="cls-1" cx="99.37" cy="7.27" r="5.37"/><circle class="cls-1" cx="99.37" cy="24.23" r="5.37"/><circle class="cls-1" cx="121.1" cy="7.25" r="5.37"/><circle class="cls-1" cx="121.1" cy="24.21" r="5.37"/><circle class="cls-1" cx="142.82" cy="7.22" r="5.37"/><circle class="cls-1" cx="142.82" cy="24.19" r="5.37"/><circle class="cls-1" cx="164.55" cy="7.2" r="5.37"/><circle class="cls-1" cx="164.55" cy="24.17" r="5.37"/><circle class="cls-1" cx="186.27" cy="7.18" r="5.37"/><circle class="cls-1" cx="186.27" cy="24.15" r="5.37"/><circle class="cls-1" cx="207.99" cy="7.16" r="5.37"/><circle class="cls-1" cx="207.99" cy="24.12" r="5.37"/><circle class="cls-1" cx="229.72" cy="7.14" r="5.37"/><circle class="cls-1" cx="229.72" cy="24.1" r="5.37"/><circle class="cls-1" cx="251.44" cy="7.12" r="5.37"/><circle class="cls-1" cx="251.44" cy="24.08" r="5.37"/><rect class="cls-2" x="12.37" y="-3.95" width="4" height="36.64" transform="translate(14.37 -5.95) rotate(45)"/><rect class="cls-2" x="28.92" y="-3.95" width="4" height="36.64" transform="translate(19.22 -17.66) rotate(45)"/></g></g></svg>
+                <p>Uma rede 100% fibra óptica apoiada por <br> monitoramento de fibra em tempo real</p>
+              </div>
+
+              <div class="obj">
+                <img
+                src="../Assets/icons/chevrons-up.svg"
+                  alt="arrowup"
+                  srcset=""
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="price-plan-one">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="plan" id="plan-one">
+                <div class="plan-tittle">
+                  <h2>200</h2>
+                  <h3>MEGA</h3>
+                </div>
+                <center><div class="stick"></div></center>
+                <div class="plan-list">
+                  <ul>
+                    <li>Sem franquia</li>
+                    <li>100% de download</li>
+                    <li>45 mega de upload</li>
+                    <li>suporte especializado</li>
+                    <li>sem fidelidade</li>
+                  
+                  </ul>
+                </div>
+                <div class="plan-value">
+                  <small>R$</small><h2>79,90</h2>
+                </div>
+              </div>
+            
+            </div>
+            <div class="swiper-slide">
+              
+              <div class="plan">
+                <div class="plan-tittle">
+                  <h2>300</h2>
+                  <h3>MEGA</h3>
+                </div>
+                <center><div class="stick"></div></center>
+                <div class="plan-list">
+                  <ul>
+                    <li>Sem franquia</li>
+                    <li>100% de download</li>
+                    <li>45 mega de upload</li>
+                    <li>suporte especializado</li>
+                    <li>sem fidelidade</li>
+                  
+                  </ul>
+                </div>
+                <div class="plan-value">
+                  <small>R$</small><h2>89,90</h2>
+                </div>
+              </div>
+         
+            </div>
+            <div class="swiper-slide">
+              
+              <div class="plan">
+                <div class="plan-tittle">
+                  <h2>450</h2>
+                  <h3>MEGA</h3>
+                </div>
+                <center><div class="stick"></div></center>
+                <div class="plan-list">
+                  <ul>
+                    <li>Sem franquia</li>
+                    <li>100% de download</li>
+                    <li>45 mega de upload</li>
+                    <li>suporte especializado</li>
+                    <li>sem fidelidade</li>
+                  
+                  </ul>
+                </div>
+                <div class="plan-value">
+                  <small>R$</small><h2>109,90</h2>
+                </div>
+              </div>
+         
+            </div>
+            <div class="swiper-slide">
+              <div class="plan">
+                <div class="plan-tittle">
+                  <h2>650</h2>
+                  <h3>MEGA</h3>
+                </div>
+                <center><div class="stick"></div></center>
+                <div class="plan-list">
+                  <ul>
+                    <li>Sem franquia</li>
+                    <li>100% de download</li>
+                    <li>45 mega de upload</li>
+                    <li>suporte especializado</li>
+                    <li>sem fidelidade</li>
+                  
+                  </ul>
+                </div>
+                <div class="plan-value">
+                  <small>R$</small><h2>149,90</h2>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+     
+        </div>
+        <div class="price-plan-two" >
+          <h1>Preços & Planos</h1>
+          
+          <div>
+          <div class="plan" id="plan-one">
+            <div class="plan-tittle">
+              <h2>200</h2>
+              <h3>MEGA</h3>
+            </div>
+            <center><div class="stick"></div></center>
+            <div class="plan-list">
+              <ul>
+                <li>Sem franquia</li>
+                <li>100% de download</li>
+                <li>45 mega de upload</li>
+                <li>suporte especializado</li>
+                <li>sem fidelidade</li>
+              
+              </ul>
+            </div>
+            <div class="plan-value">
+              <small>R$</small><h2>79,90</h2>
+            </div>
+          </div>
+          <div class="plan" id="plan-two">
+            <div class="plan-tittle">
+              <h2>300</h2>
+              <h3>MEGA</h3>
+            </div>
+            <center><div class="stick"></div></center>
+            <div class="plan-list">
+              <ul>
+                <li>Sem franquia</li>
+                <li>100% de download</li>
+                <li>45 mega de upload</li>
+                <li>suporte especializado</li>
+                <li>sem fidelidade</li>
+              
+              </ul>
+            </div>
+            <div class="plan-value">
+              <small>R$</small><h2>89,90</h2>
+            </div>
+          </div>
+          <div class="plan" id="plan-three">
+            <div class="plan-tittle">
+              <h2>450</h2>
+              <h3>MEGA</h3>
+            </div>
+            <center><div class="stick"></div></center>
+            <div class="plan-list">
+              <ul>
+                <li>Sem franquia</li>
+                <li>100% de download</li>
+                <li>45 mega de upload</li>
+                <li>suporte especializado</li>
+                <li>sem fidelidade</li>
+              
+              </ul>
+            </div>
+            <div class="plan-value">
+              <small>R$</small><h2>109,90</h2>
+            </div>
+          </div>
+          <div class="plan" id="plan-four">
+            <div class="plan-tittle">
+              <h2>650</h2>
+              <h3>MEGA</h3>
+            </div>
+            <center><div class="stick"></div></center>
+            <div class="plan-list">
+              <ul>
+                <li>Sem franquia</li>
+                <li>100% de download</li>
+                <li>45 mega de upload</li>
+                <li>suporte especializado</li>
+                <li>sem fidelidade</li>
+              
+              </ul>
+            </div>
+            <div class="plan-value">
+              <small>R$</small><h2>149,90</h2>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div>
+          u
+        </div>
+      </section>
+<section class="desk-text">
+      <section class="cotacao-two" id="tv">
+        <div class="img-king-cable" >
+          <img src="../Assets/images/give-me-that-remote-controller.png" id="working"  alt="" class="king" />
+          <img src="../Assets/images/mobile/workplay.png" id="workplay" alt="" srcset="">
+        </div>
+        <div class="just-text" >
+          <div class="ajust-two" >
+            <h2>CANAIS <br> DE TV</h2>
+            <p >
+              O Speed Star Mini Flat DROP foi projetado com capa plástica de
+              alta resistência a tração mecânica e contra intemperismo (sol,
+              chuva, variações de temperaturas) cabo de fibra optica drop 1
+              fibra da transcend,somos distribuidor para todos territorio
+              nacional.
+            </p>
+            <button onclick="onClickLink()" class="btn-king">
+              faça sua cotação
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="cotacao">
+        <div class="img-king-cable">
+          <img src="../Assets/images/roteador.png" id="working" alt="" class="king" />
+          <img src="../Assets/images/roteador.png" id="workplay"  alt="" srcset="">
+        </div>
+        <div class="just-text">
+          <h2>ULTRA <br> WI-FI 5G</h2>
+          <p>
+            As fibras EASY4 LINK foram projetadas com capa plástica de alta
+            resistência a tração mecânica e contra intemperismo (sol, chuva,
+            variações de temperaturas) cabo de fibra optica drop 1 fibra da
+            transcend,somos distribuidor para todos territorio nacional.
+          </p>
+          <button onclick="onClickLink()" class="btn-king">
+            faça sua cotação
+          </button>
+        </div>
+      </section>
+      <section class="cotacao-two">
+        <div class="img-king-cable">
+          <img src="../Assets/images/CAMARA-COLOR-VU.png" id="working" alt="" class="king" />
+          <img src="../Assets/images/CAMARA-COLOR-VU.png" id="workplay" alt="" srcset="">
+        </div>
+        <div class="just-text">
+          <div class="ajust-two">
+            <h2>SEGURANÇA <br> <span>ELETRÔNICA </span> <br> INDUSTRIAL</h2>
+            <p>
+              Os cabos de fibra ótica da FiberHome são recomendados para
+              sistemas de cabeamento estruturado para tráfego de voz, dados e
+              imagens, com distribuição entre prédios, que exijam interligações
+              ópticas externas.
+            </p>
+            <button onclick="onClickLink()" class="btn-king">
+              faça sua cotação
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+      <section>
+        <div class="enterprise-plan">
+   
+          <div class="enterprise">
+              <div><h2>Plano <br> Empresarial</h2></div>
+
+              <div style="width:100% ; display:flex; justify-content:flex-start; text-align:start;">
+                <ul>
+                  <li>Atendimento Personalizado</li>
+                  <li>Planos Exclusivos</li>
+                  <li>Link Dedicado</li>
+                  <li>Suporte Prioritário</li>
+                
+                </ul>
+              </div>
+              <div>
+                <button><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 153.55 110.9"><defs><style>.cls-1{fill:url(#Gradiente_sem_nome_9);}</style><linearGradient id="Gradiente_sem_nome_9" y1="55.45" x2="155.67" y2="55.45" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00a9f6"/><stop offset="1" stop-color="#019ef4"/></linearGradient></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path class="cls-1" d="M51.18,110.9a8.53,8.53,0,0,1-6-2.5L2.5,65.75A8.53,8.53,0,0,1,14.56,53.69L51.18,90.31,139,2.5a8.53,8.53,0,1,1,12.06,12.07L57.22,108.4A8.54,8.54,0,0,1,51.18,110.9Z"/></g></g></svg>Solicite Agora</button>
+              </div>
+          </div>
+          <!-- <div class="solicite">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 153.55 110.9"><defs><style>.cls-1{fill:url(#Gradiente_sem_nome_9);}</style><linearGradient id="Gradiente_sem_nome_9" y1="55.45" x2="155.67" y2="55.45" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00a9f6"/><stop offset="1" stop-color="#019ef4"/></linearGradient></defs><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path class="cls-1" d="M51.18,110.9a8.53,8.53,0,0,1-6-2.5L2.5,65.75A8.53,8.53,0,0,1,14.56,53.69L51.18,90.31,139,2.5a8.53,8.53,0,1,1,12.06,12.07L57.22,108.4A8.54,8.54,0,0,1,51.18,110.9Z"/></g></g></svg>
+            
+            <p>Solicite Agora</p>
+          </div> -->
+        </div>
+        
+      </section>
+      <section>
+
+        <div class="map" id="map">
+          <h2>Nossa Loja</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3703.668776554269!2d-41.27208658558773!3d-21.831724905879778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbe79747d65cf65%3A0x662949a1921f6de1!2sWork%20Banda%20Larga!5e0!3m2!1spt-BR!2sbr!4v1663114025653!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </section>
+    </main>
+    <!-- Button WhatsApp -->
+
+    <div class="div-fixa-whats">
+      <a href="../PHP/whatsapp.php" target="_blank">
+        <img
+          class="img-div-prime"
+          src="../Assets/icons/whats.png"
+          width="90"
+        />
+      
+      
+      </a>
+    </div>
+
+    <!-- End Button WhatsApp -->
+    <footer>
+      <section>
+        <div class="img-footer">
+          <img src="../Assets/images/logo-preta.png" alt="" srcset="">
+        </div>
+        <div class="link-footer">
+          <div class="text-one">
+            <h2>Relacionamento</h2>
+            <a href="#map">Endereço</a>
+            <a href="">Contato</a>
+            <a href="">Suporte</a>
+            <a href="">Áreas atendidas</a>
+          </div>
+          <div class="text-two">
+            <h2>Empresa</h2>
+            <a href="">Sobre nós</a>
+            <a href="../Pages/faq.html">Tire suas duvidas</a>
+           
+          </div>
+        </div>
+      </section>
+      <section style="height: 5vh ; display:flex; align-items:center">
+        <div class="text-three">
+          <strong>@2022 Work Banda Larga -Todos os direitos reservados </strong> 
+        </div>
+        <div class="text-four">
+          <p>@workbandalarga</p>
+          <div class="social">
+           <img src="../Assets/images/logo facebook.svg" alt="facebook">
+           <img src="../Assets/images/logo instagram.svg" alt="instagram">
+           <img src="../Assets/images/logo twitter.svg" alt="twitter">
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="../Scripts/Menu/script.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../Scripts/Carrosel/scripts.js"></script>
+    <script src="../Scripts/Select/scripts.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,278 @@
+.swiper {
+  height: 100% !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  height: 100% !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 270px;
+  }
+
+  .project-img img {
+    width: 100%;
+    height: 100% !important;
+  }
+}
+
+.project-img img {
+  width: 100%;
+  /* height: 80vh; */
+}
+
+.swiper-pagination-bullet {
+  color: white !important;
+  /* margin-top:-10px!important; */
+  background-color: white !important;
+}
+
+/* 
+    largura => 3840
+    Altura => 420
+  
+  */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: white !important;
+}
+
+#mobile-img {
+  display: none;
+}
+
+@media (max-width: 999px) {
+  #mobile-img {
+    display: block !important;
+  }
+
+  .project-img {
+    display: none;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cards */
+
+.carrossel {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  display: flex;
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrossel .container {
+  width: 100vw;
+
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  transform: translate(0);
+  justify-content: flex-start;
+  overflow-x: hidden;
+}
+
+.imagem-cards-one {
+  width: 100vw;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  object-fit: cover;
+  height: 90vh;
+  background: url("../../../Assets/images/carrossel\ 1.png") no-repeat center;
+  background-size: cover;
+}
+.imagem-cards-two {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  background: url("../../../Assets/images/carrosel/-mesmafrase-comemorar.jpg")
+    no-repeat center;
+  background-size: cover;
+  object-fit: cover;
+}
+@media (max-width: 999px) {
+  .imagem-cards-one {
+    width: 100vw;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+    height: 90vh;
+    background: url("../../../Assets/images/mobile/-mesmafase-compartilhar.jpg")
+      no-repeat center;
+    background-size: cover;
+  }
+  .imagem-cards-two {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    background: url("../../../Assets/images/mobile/-mesmafrase-comemorar.jpg")
+      no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .carrossel button {
+    font-size: 22px !important;
+    padding: 10px 20px 10px !important;
+    width: 280px !important;
+    margin: 20px !important;
+    margin-left: 10px !important;
+  }
+  .imagem-cards-one p {
+    margin-left: 10px !important;
+    margin: 80px;
+    font-size: 40px !important;
+  }
+  .imagem-cards-two p {
+    margin-left: 10px !important;
+    margin: 80px;
+    font-size: 40px !important;
+  }
+  .imagem-cards-three p {
+    margin-left: 10px !important;
+    margin: 80px;
+    font-size: 40px !important;
+  }
+  .imagem-cards-four p {
+    margin-left: 10px !important;
+    margin: 80px;
+    font-size: 40px !important;
+  }
+}
+
+/* new cards */
+.imagem-cards-three {
+  width: 100vw;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  object-fit: cover;
+  height: 90vh;
+  background: url("../../../Assets/images/carrosel/-mesmafase-jogar.jpg")
+    no-repeat center;
+  background-size: cover;
+}
+.imagem-cards-four {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  background: url("../../../Assets/images/carrosel/-mesmafrase-assistir.jpg")
+    no-repeat center;
+  background-size: cover;
+  object-fit: cover;
+}
+.imagem-cards-three p {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 80px;
+  margin-bottom: 20px;
+  margin-top: 0 !important;
+}
+.imagem-cards-four p {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 80px;
+  margin-bottom: 20px;
+  margin-top: 0 !important;
+}
+/* new cards */
+.imagem-cards-one p {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 80px;
+  margin-bottom: 20px;
+  margin-top: 0 !important;
+}
+
+.carrossel button {
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  color: white;
+  font-size: 30px;
+  padding: 10px 20px 10px !important;
+  width: 400px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.carrossel button:hover {
+  opacity: 0.8;
+}
+
+.imagem-cards-two p {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 80px;
+  margin-bottom: 20px;
+  margin-top: 0 !important;
+}
+
+/* ul {
+  overflow-x: auto !important;
+} */
+
+.carrossel .container li {
+  animation: slide 50s ease-out infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  24% {
+    transform: translateX(0%);
+  }
+
+  25% {
+    transform: translateX(-100%);
+  }
+
+  49% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  74% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  99% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,35 @@
+.div-fixa-whats {
+  position: fixed;
+  margin: 15px;
+  /* width: 98%; */
+  margin-bottom: 0px;
+  /* max-width: 100vw; */
+  display: flex;
+  justify-content: flex-end;
+
+  flex-wrap: wrap;
+  margin-top: 0px!IM;
+  z-index: 5000;
+  bottom: 0px;
+  /* margin-left: 75%; */
+}
+.img-div {
+  display: none;
+}
+
+/* @media (max-width: 800px) {
+    .img-div {
+      display: flex;
+      margin-right: 10px;
+  
+      
+    }
+    .div-fixa-whats {
+  margin-left: 75%;
+    }
+    .img-div-prime {
+      display: none ;
+    }
+   
+  }
+   */
