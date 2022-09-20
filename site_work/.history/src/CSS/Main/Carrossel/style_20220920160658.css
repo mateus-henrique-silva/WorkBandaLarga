@@ -242,18 +242,18 @@
 } */
 
 .carrossel .container li {
-  animation: slide 30s ease-out infinite;
+  animation: slide 50s ease-out infinite;
 }
 
 @keyframes slide {
   0% {
     transform: translateX(0%);
   }
-  24% {
+  15% {
     transform: translateX(0%);
   }
 
-  25% {
+  2% {
     transform: translateX(-100%);
   }
 

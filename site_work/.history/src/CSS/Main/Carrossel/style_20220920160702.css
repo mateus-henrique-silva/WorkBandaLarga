@@ -242,7 +242,7 @@
 } */
 
 .carrossel .container li {
-  animation: slide 30s ease-out infinite;
+  animation: slide 50s ease-out infinite;
 }
 
 @keyframes slide {
